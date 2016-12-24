@@ -82,7 +82,6 @@ gulp.task('style:build', function () {
             errLogToConsole: true
         }))
         .pipe(prefixer())
-        .pipe(cssmin())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.css))
         .pipe(reload({stream: true}));
