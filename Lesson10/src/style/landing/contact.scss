@@ -1,0 +1,98 @@
+.contact {
+	background: #f4f4f4;
+	.left-side {
+		h3 {
+			color: #504f50;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 20px;
+			text-transform: uppercase;
+			&:after {
+				content: "";
+				display: block;
+				margin: 0 auto;
+				margin-top: 20px;
+				margin-bottom: 30px;
+				width: 100px;
+				height: 2px;
+				background: #42ccdc;
+
+			}
+		}
+		p {
+			width: 90%;
+			margin: 0 auto;
+		}
+		h4 {
+			color: #504f50;
+			margin: 30px 0;
+			font-weight: bold;
+			
+		}
+	}
+
+	.contact-form {
+		margin-top: 30px;
+		.email,.name,.subject, textarea {
+			width: 80%;
+			height: 47px;
+			padding-left: 15px;
+			margin-bottom: 25px;
+			border: 1px solid #e6e6e6;
+		}
+		textarea {
+			padding-top: 15px;
+			height: 100px;
+			resize: none;
+		}
+
+
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.contact-flex-container {
+	margin-top: 60px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	.left-side {
+		width: 49%;
+		text-align: left;
+		p {
+			width: 100%;
+		}
+		h3:after {
+			margin-left: 0;
+		}
+	}
+		.contact-form {
+			width: 49%;
+			margin-top: 0;
+			text-align: left;
+			textarea {
+				height: 160px;
+				width: 100%;
+			}
+			li.half-size {
+				display: inline;
+				text-align: justify;
+				.name, .email {
+					width: 45%;
+				}
+			}
+			.name {
+				margin-right: 9%;
+			}
+			.subject {
+				width: 100%;
+			}
+
+
+
+		}
+	}
+
+	
+}
