@@ -1,5 +1,8 @@
 .about-us {
 	background: #fafafa;
+	img {
+		padding-bottom: 20px;
+	}
 }
 .about-article {
 	h3 {
@@ -33,6 +36,9 @@
 	text-align: left;
 	.img-wrapper {
 		width: 49%;
+		img {
+			padding: 0;
+		}
 
 	}
 	.about-article {
