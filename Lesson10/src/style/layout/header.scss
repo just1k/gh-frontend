@@ -1,16 +1,47 @@
 header {
-
-
+	overflow: hidden;
 	.logo {
 		float: left;
+		margin-top: 25px;
+		a {
 		font-size: 30px;
+		color: #39c9da;
+		font-weight: bold;
+		span {
+			color: white;
+			font-size: 40px;
+			}
+		}
+	}
+	.hamburger-menu {
+		float: right;
+		margin-top: 35px;
+		@media screen and (min-width: 768px) {
+			visibility: hidden;
+		}
 	}
 	.main-nav {
-		float: right;
-		li {
-			display: inline-block;
+		visibility: hidden;
+		@media screen and (min-width: 768px){
+			visibility: visible;
+			float: right;
+			margin-top: 45px;
+			li {
+				display: inline-block;
+				a {
+					text-transform: uppercase;
+					font-size: 16px;
+					font-weight: bold;
+					padding: 0 15px;
+					&:hover {
+						color:#39c9da;
+				}
+			}
 		}
-
-	
 	}
+	
 }
+
+
+}
+
