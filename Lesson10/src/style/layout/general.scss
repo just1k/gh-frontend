@@ -28,3 +28,24 @@ img {
 section {
 	overflow: hidden;
 }
+
+.blue-button {
+	display: inline-block;
+	width: 201px;
+	height: 49px;
+	background-color: #39c9da;
+	border:3px solid #39c9da;
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 49px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all .3s;
+	&:hover {
+		background-color: transparent;
+		font-size: 26px;
+		color:#39c9dd;
+	}
+}
