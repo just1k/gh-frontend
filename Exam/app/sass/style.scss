@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
 @import "partials/header";
 @import "partials/footer";
 @import "partials/hero";
-@import "partials/about";
-@import "partials/services";
-@import "partials/clients";
-@import "partials/news";
-@import "partials/partners";
+
+
+@import "variables/variables";
+
+@import "base/general";
+
+@import "components/buttons";
+
+
