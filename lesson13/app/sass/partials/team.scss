@@ -1,0 +1,43 @@
+.team {
+	background: #e8e8e8;
+	text-align: center;
+	.avatar-wrap {
+		width: 267px;
+		height: 267px;
+		margin: 0 auto;
+		background: #fff;
+		border-radius: 200px;
+		overflow: hidden;
+	}
+	h3 {
+		padding-top: 15px;
+		font-weight: 600;
+	}
+	span {
+		font-size: 16px;
+		font-weight: 300;
+	}
+	p {
+		font-size: 13px;
+		padding: 15px 0;
+		line-height: 17px;
+	}
+
+	.team-social {
+		margin-bottom: 20px;
+		li {
+			display: inline-block;
+			padding: 0 3px;
+			a {
+				color: white;
+				padding: 4px 8px;
+				border-radius: 20px;
+				background: #7acdf1;
+				transition: 0.3s all ease-out;
+				&:hover {
+					background: #ff5959;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+header {
+	background: #ff5959;
+	padding-top: 25px;	
+}
+
+@media (min-width: 768px){
+.navbar-nav>li>a {
+	margin-top: 5px;
+	padding: 10px 15px;
+	font-size: 14px;
+	font-weight: 700;
+}
+}
