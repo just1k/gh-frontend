@@ -1,0 +1,22 @@
+{
+  "name": "lesson11",
+  "homepage": "https://github.com/RuslanYurchenko/gh-frontend",
+  "authors": [
+    "just1k <sergey.zborovskiy@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "owl.carousel": "^2.2.0",
+    "font-awesome": "^4.7.0"
+  }
+}
