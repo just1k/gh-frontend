@@ -4,311 +4,43 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>lesson13</title>
+	<title>lesson14</title>
 
 	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="sass/components/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header>
-		<div class="container">
-			<nav class="navbar navbar-default">
-				<div class="navbar-header">
-			      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		      	  	<span class="sr-only">Toggle navigation</span>
-		       		<span class="icon-bar"></span>
-		        	<span class="icon-bar"></span>
-		        	<span class="icon-bar"></span>
-		     	 	</button>
-					<h1 class="logo"><a href="index.html"><img src="img/logo.png" alt=""></a></h1>
-				</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	                <ul class="nav navbar-nav navbar-right">
-	                    <li><a href="index.html">Home</a></li>
-	                    <li><a href="#service">Services</a></li>
-	                    <li><a href="#portfolio">Portfolio</a></li>
-	                    <li><a href="#team">Our Team</a></li>
-	                    <li><a href="#blog">Blog</a></li>
-	                    <li><a href="#contact">Contact us</a></li>
-	                </ul>
-	            </div>
-			</nav>	
-		</div>
+	<header style="background: #ff36af">
+        <div class="container">
+            <h1>
+                <a class="logo" href="#"><img src="img/logo.png" alt=""></a>
+            </h1>
+             <nav class="pushy pushy-right">
+                <ul>
+                    <li><a class="menu-item" href="#hero">Home</a></li>
+                    <li><a class="menu-item" href="#introduction">Introduction</a></li>
+                    <li><a class="menu-item" href="#download">Download</a></li>
+                    <li><a class="menu-item" href="#about">About Singular</a></li>
+                    <li><a class="menu-item" href="#services">Services</a></li>
+                    <li><a class="menu-item" href="#works">Featured works</a></li>
+                    <li><a class="menu-item" href="#team">About Us</a></li>
+                    <li><a class="menu-item" href="#clients">Clients</a></li>
+                    <li><a class="menu-item" href="#contact-us">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="site-overlay"></div>
+            <div class="container">
+                <div class="menu-btn-wrapper cf">
+                    <a class="menu-btn"><span class="fa fa-bars fa-2x"></span></a>
+                </div>
+            </div>
+        </div>
 	</header>
-	<section class="hero">
-		<div class="container">
-			<div class="row hero-block">
-				<div class="col-xs-12 col-md-offset-1 col-md-5">
-					<h2>ONE PAGE <span>IS ALL THAT YOU NEED</span></h2>
-					<p>
-						Suspendisse mi nisl, adipiscing sit amet tellus sed, auctor aliquet 
-						felis. Aenean neque elit, blandit quis tempor eu, feugiat rhoncus 
-						lectus. Quisque sit amet pretium risus. 
-					</p>
-					<ul class="brand-buttons-list">
-						<li><a href="#" class="brand-btn active">OUR TEAM</a></li>
-						<li><a href="#" class="brand-btn">CONTACT US</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-12 col-md-6">
-					<img src="img/hero-img.png" alt="">
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="services section-padding" id="secvice">
-		<div class="container">
-			<h2 class="section-heading after-line-black">Our services</h2>
-			<ul class="row">
-				<li class="col-xs-12 col-md-4">
-					<img src="img/service-1.png" alt="">
-					<h3 class="subheading">HTML 5 & CSS3</h3>
-					<p>
-						Sed fermentum, ante vel sagittis adipiscing, purus nisi ultrices dolor, 
-						a aliquam nunc lacus in turpis. Nunc molestie nisi diam. Donec commodo 
-						quam sit amet mauris pellentesque, in commodo lorem venenatis. Nullam 
-						consequat venenatis. 
-					</p>
-				</li>
-				<li class="col-xs-12 col-md-4">
-					<img src="img/service-2.png" alt="">
-					<h3 class="subheading">SEO Optimization</h3>
-					<p>
-						Sed fermentum, ante vel sagittis adipiscing, purus nisi ultrices dolor, 
-						a aliquam nunc lacus in turpis. Nunc molestie nisi diam. Donec commodo 
-						quam sit amet mauris pellentesque, in commodo lorem venenatis. Nullam 
-						consequat venenatis. 
-					</p>
-				</li>
-				<li class="col-xs-12 col-md-4">
-					<img src="img/service-3.png" alt="">
-					<h3 class="subheading">Graphic Design</h3>
-					<p>
-						Sed fermentum, ante vel sagittis adipiscing, purus nisi ultrices dolor, 
-						a aliquam nunc lacus in turpis. Nunc molestie nisi diam. Donec commodo 
-						quam sit amet mauris pellentesque, in commodo lorem venenatis. Nullam 
-						consequat venenatis. 
-					</p>
-				</li>
-			</ul>
-		</div>
-	</section>
-
-	<section class="portfolio section-padding" id="portfolio">
-		<div class="container">
-			<h2 class="section-heading after-line-white">Our Portfolio</h2>
-			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-6" >
-					<img src="img/photo-1.png" alt="">
-					<div class="row  padding">
-						<div class="col-xs-6 col-sm-6 col-md-6">
-							<img src="img/photo-2.png" alt="">
-						</div>
-						<div class="col-xs-6 col-sm-6 col-md-6">
-							<img src="img/photo-3.png" alt="">
-						</div>
-					</div>
-
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6">
-					<img src="img/photo-4.png" alt="">
-					<div class="row padding">
-						<div class="col-xs-6 col-sm-6 col-md-6">
-							<img src="img/photo-5.png" alt="">
-						</div>
-						<div class="col-xs-6 col-sm-6 col-md-6">
-							<img src="img/photo-6.png" alt="">
-						</div>
-					</div>		
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="team section-padding" id="team">
-		<div class="container">
-			<h2 class="section-heading after-line-black">
-				Our Wonderful Team
-			</h2>
-			<ul class="row team-list">
-				<li class="col-xs-12 col-sm-6 col-md-3">
-					<div class="avatar-wrap"></div>
-					<h3 class="subheadings">George Sjöstedt</h3>
-					<span>CEO / Founder</span>
-					<p>
-						Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, 
-						consectetur, adipisci velit...
-					</p>
-					<ul class="team-social">
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					</ul>
-				</li>
-				<li class="col-xs-12 col-sm-6 col-md-3">
-					<div class="avatar-wrap"></div>
-					<h3 class="subheadings">George Sjöstedt</h3>
-					<span>CEO / Founder</span>
-					<p>
-						Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, 
-						consectetur, adipisci velit...
-					</p>
-					<ul class="team-social">
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					</ul>
-				</li>
-				<li class="col-xs-12 col-sm-6 col-md-3">
-					<div class="avatar-wrap"></div>
-					<h3 class="subheadings">George Sjöstedt</h3>
-					<span>CEO / Founder</span>
-					<p>
-						Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, 
-						consectetur, adipisci velit...
-					</p>
-					<ul class="team-social">
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					</ul>
-				</li>
-				<li class="col-xs-12 col-sm-6 col-md-3">
-					<div class="avatar-wrap"></div>
-					<h3 class="subheadings">George Sjöstedt</h3>
-					<span>CEO / Founder</span>
-					<p>
-						Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, 
-						consectetur, adipisci velit...
-					</p>
-					<ul class="team-social">
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>	
-	</section>
-
-	<section class="section-padding news" id="blog">
-		<div class="container">
-			<h2 class="section-heading after-line-white">
-				The Latest News
-			</h2>
-			<ul class="row news-list">
-				<li class="col-xs-12 col-md-4">
-					<img src="img/news-photo.png" alt="">
-					<h4 class="news-heading"><a href="#">Theme HotelDeluxe Released</a></h4>
-					<span class="news-data">15th September, 21:24</span>
-					<p>
-						Nunc vitae euismod orci, sit amet hendrerit est. Nulla id ipsum rhoncus, 
-						porttitor ipsum ut, tempus libero. Morbi eget justo gravida, ornare ipsum 
-						interdum, imperdiet sapien. Pellentesque vitae ipsum dui. Vivamus a dolor urna. 
-						Cras posuere eros eu odio aliquet tincidunt. Sed at consequat nulla. Nulla 
-						luctus dapibus nulla.Lorem ut, tempus libero. Morbi eget justo gravida, ornare 
-						ipsum interdum, imperdiet sapien. Pellentesque vitae ipsum dui. Vivamus a 
-						dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at consequat 
-						nulla. Nulla luctus dapibus nulla...
-					</p>
-					<a href="#" class="news-author">Dan Aase</a>
-					<a href="#" class="news-comm">21 Comments</a>
-				</li>
-				<li class="col-xs-12 col-md-4">
-					<img src="img/news-photo.png" alt="">
-					<h4 class="news-heading"><a href="#">Theme HotelDeluxe Released</a></h4>
-					<span class="news-data">15th September, 21:24</span>
-					<p>
-						Nunc vitae euismod orci, sit amet hendrerit est. Nulla id ipsum rhoncus, 
-						porttitor ipsum ut, tempus libero. Morbi eget justo gravida, ornare ipsum 
-						interdum, imperdiet sapien. Pellentesque vitae ipsum dui. Vivamus a dolor urna. 
-						Cras posuere eros eu odio aliquet tincidunt. Sed at consequat nulla. Nulla 
-						luctus dapibus nulla.Lorem ut, tempus libero. Morbi eget justo gravida, ornare 
-						ipsum interdum, imperdiet sapien. Pellentesque vitae ipsum dui. Vivamus a 
-						dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at consequat 
-						nulla. Nulla luctus dapibus nulla...
-					</p>
-					<a href="#" class="news-author">Dan Aase</a>
-					<a href="#" class="news-comm">21 Comments</a>
-				</li>
-				<li class="col-xs-12 col-md-4">
-					<img src="img/news-photo.png" alt="">
-					<h4 class="news-heading"><a href="#">Theme HotelDeluxe Released</a></h4>
-					<span class="news-data">15th September, 21:24</span>
-					<p>
-						Nunc vitae euismod orci, sit amet hendrerit est. Nulla id ipsum rhoncus, 
-						porttitor ipsum ut, tempus libero. Morbi eget justo gravida, ornare ipsum 
-						interdum, imperdiet sapien. Pellentesque vitae ipsum dui. Vivamus a dolor urna. 
-						Cras posuere eros eu odio aliquet tincidunt. Sed at consequat nulla. Nulla 
-						luctus dapibus nulla.Lorem ut, tempus libero. Morbi eget justo gravida, ornare 
-						ipsum interdum, imperdiet sapien. Pellentesque vitae ipsum dui. Vivamus a 
-						dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at consequat 
-						nulla. Nulla luctus dapibus nulla...
-					</p>
-					<a href="#" class="news-author">Dan Aase</a>
-					<a href="#" class="news-comm">21 Comments</a>
-				</li>
-			</ul>
-		</div>
-	</section>
-
-	<section class="contact section-padding" id="contact">
-		<div class="container">
-			<h2 class="section-heading after-line-black">Contact Us</h2>
-			<div class="row">
-				<div class="col-xs-12 col-md-6">
-					<form action="#">
-						<ul class="input-list">
-							<li><input type="text" name="name" placeholder="Full Name"></li>
-							<li><input type="email" name="email" placeholder="E-mail Adress"></li>
-							<li><textarea name="message" placeholder="Message"></textarea></li>
-						</ul>
-					</form>
-				</div>
-				<div class="col-xs-12 col-md-6">
-					<h3 class="contact-info">
-						Information
-					</h3>
-					<p>
-						Proin nec dignissim tellus, ut hendrerit erat. Vivamus ut augue ac est 
-						sagittis ullamcorper a porttitor nibh. Donec non tortor consequat, 
-						sollicitudin odio id, vehicula lorem. Suspendisse a euismod sem. Mauris 
-						rutrum arcu a lorem aliquet feugiat. Praesent tincidunt lacus at nisl 
-						pharetra, nec suscipit risus lobortis. Nunc vitae enim a quam ultrices 
-						faucibus. Proin sit amet condimentum libero, ac dignissim enim. Praesent 
-						aliquam lacinia dapibus.
-					</p>
-					<span class="address"> StreetName 163, 254 23 City</span>
-					<a href="#" class="contact-phone"> (+254) 001 454 333 66</a>
-					<ul class="hero-buttons">
-						<li><a href="#" class="brand-btn active">SEND MESSAGE</a></li>
-						<li><a href="#" class="brand-btn">VIEW MAP</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<footer>
-		<p class="copyright">
-			© Copyright 2013 By Projex - All rights Reserved!
-		</p>
-	</footer>
-
-
-
 
 
 	<script src="js/libs.min.js"></script>
+
 </body>
 </html>
