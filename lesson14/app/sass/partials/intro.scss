@@ -1,0 +1,19 @@
+#intro {
+	background: #fff;
+  background-size: cover;
+  color: #222;
+  p {
+    width: 90%;
+    max-width: 760px;
+    margin: 0 auto;
+    color:#222;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 400;
+    @media screen and (min-width: 768px){
+      font-size: 20px;
+    }
+
+  }
+
+}

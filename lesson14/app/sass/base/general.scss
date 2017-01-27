@@ -3,7 +3,8 @@
 body {
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
-	color: black;
+	color: white;
+	text-align: center;
 }
 p {
 	margin: 0;
@@ -40,6 +41,13 @@ h1,h2,h3,h4,h5,h6 {
 	padding: 50px 0;
 	@media screen and (min-width: 768px) {
 		padding: 110px 0;
+	}
+}
+.title {
+	font: 400 40px/60px "Open Sans", sans-serif;
+	padding-bottom: 50px;
+	@media screen and (min-width: 768px) {
+		padding-bottom: 90px;
 	}
 }
 

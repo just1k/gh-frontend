@@ -1,0 +1,21 @@
+header {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    height: 90px;
+  }
+  height: 55px;
+  padding: 15px 5px;
+  background: rgba(34,34,34, .45);
+  @media screen and (min-width: 768px) {
+    padding: 40px 30px 30px;
+  }
+  h1 {
+    float: left;
+  }
+  .menu-btn {
+    float: right;
+    color: white;
+  }
+}
