@@ -1,0 +1,44 @@
+.about {
+	background: #222;
+    p {
+	    font-size: 16px;
+	    text-align: left;
+	    overflow: hidden;
+	}
+	.features-list {
+		padding-top: 50px;
+		li {
+			margin-bottom: 40px;
+		}
+	}
+	.fa {
+		margin-right: 20px;
+		float: left;
+		width: 70px;
+		height: 70px;
+		background: #fff;
+		border-radius: 70px;
+		border: 3px solid black;
+		color: black;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		font-size: 40px;
+		font-weight: bold;
+	}
+	
+	h3 {
+		text-align: left;
+		font: 700 16px/40px 'Montserrat',sans-serif;
+		overflow: hidden;
+		@media screen and (min-width: 768px) {
+			font-size: 18px;
+		}
+	}
+	img {
+		margin-right: -30px;
+		@media screen and (min-width: 768px) {
+			margin-right: -160px;
+		}
+	}
+}
