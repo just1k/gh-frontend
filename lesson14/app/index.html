@@ -176,9 +176,9 @@
         </div>
     </section>
 
-     <section class="portfolio" id="works">
-        <div class="container">
-            <h2 class="section-title">Featured works</h2>
+     <section class="portfolio section" id="works">
+        <div class="portfolio-wrap">
+            <h2 class="title">Featured works</h2>
             <nav class="works-menu" id="options">
                 <ul id="filters">
                     <li><button class="button" data-filter="*">View All</button></li>
@@ -186,7 +186,7 @@
                     <li><button class="button" data-filter=".freebies">Freebies</button></li>
                 </ul>
             </nav>      
-            <ul class="works-list" id="isotope">
+            <ul class="isotope works-list" id="isotope">
                 <li class="item websites">
                     <img src="img/works-item-1.jpg" alt="">
                     <div class="works-rollover">
@@ -270,29 +270,29 @@
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                 quis nostrud exercitation ullamco laboris.
             </p>
-            <ul class="team-lists">
-                <li class="member">
+            <ul class="team-lists row">
+                <li class="member col-xs-12 col-sm-6 col-md-3">
                     <img src="img/team-item-1.jpg" alt="">
                     <div class="team-rollover">
                         <h3 class="member-name">John Donga</h3>
                         <span class="member-position">Founder</span>
                     </div>                      
                 </li>
-                <li class="member">
+                <li class="member col-xs-12 col-sm-6 col-md-3">
                     <img src="img/team-item-2.jpg" alt="">
                     <div class="team-rollover">
                         <h3 class="member-name">Sun Lee</h3>
                         <span class="member-position">Designer</span>
                     </div>                      
                 </li>
-                <li class="member">
+                <li class="member col-xs-12 col-sm-6 col-md-3">
                     <img src="img/team-item-3.jpg" alt="">
                     <div class="team-rollover">
                         <h3 class="member-name">Brandon Jones</h3>
                         <span class="member-position">Photographer</span>
                     </div>                     
                 </li>
-                <li class="advertisement">
+                <li class="advertisement col-xs-12 col-sm-6 col-md-3">
                     <span>We are hiring!</span>
                     <a href="#">Apply</a>
                 </li>
@@ -334,6 +334,11 @@
         </div>
     </footer>
 	<script src="js/libs.min.js"></script>
+    <script src="libs/isotope/dist/isotope.pkgd.min.js"></script>
+    <script src="js/my-isotope.js"></script>
+    <script src="libs/isotope/js/layout-modes/fit-rows.js"></script>
+
+
 
 
 </body>

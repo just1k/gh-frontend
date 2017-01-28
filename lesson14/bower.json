@@ -20,6 +20,7 @@
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {
-    "pushy": "^1.0.0"
+    "pushy": "^1.0.0",
+    "isotope": "^3.0.2"
   }
 }
