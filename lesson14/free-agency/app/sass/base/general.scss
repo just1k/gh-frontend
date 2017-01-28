@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
 body {
-	font-size: 13px;
+	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
-	color: black;
+	color: #424242;
 	text-align: center;
 }
 p {
@@ -34,6 +36,33 @@ section {
 h1,h2,h3,h4,h5,h6 {
 	padding: 0;
 	margin: 0;
+}
+
+.section {
+	padding: 50px 0;
+	@media screen and (min-width: 768px) {
+		padding: 100px 0;
+	}
+
+}
+.section-title {
+	font-size: 36px;
+	font-weight: 700;	
+}
+
+.title-description {
+	font-size: 20px;
+	font-weight: 300;
+	&:after {
+		content: "";
+		display: block;
+		width: 50px;
+		height: 5px;
+		margin: 0 auto;
+		background: #424242;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
 }
 
 
