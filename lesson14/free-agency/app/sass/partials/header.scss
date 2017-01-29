@@ -1,0 +1,151 @@
+header {
+	min-height: 150px;
+	address {
+		margin-bottom: 25px;
+		li {
+			display: inline-block;
+			margin-right: 10px;
+			&:first-child {
+				padding-right: 10px;
+				@media screen and (min-width: 360px) {
+					border-right: 1px solid #e2e2e2;
+				}
+			}
+		}
+		min-height: 40px;
+		text-align: center;
+		@media screen and (min-width: 360px) {
+			text-align: right;
+		}
+		color: #424242;
+		line-height: 40px;
+		background-color: #f0f2f4;
+		box-shadow: 0 1px 0 #e2e2e2;
+		.fa {
+			margin-right: 10px;
+		}
+		.fa-mobile {
+			float:left;
+			margin-top: 7px;
+			font-size: 25px;
+		}
+
+		.telephone-number {
+			color: #424242;
+			font-size: 15px;
+			font-weight: 400;
+		}
+		.email-address {
+			color:#424242;
+			font-size: 15px;
+			font-weight: 400;
+		}
+		.fa-facebook {
+			width: 26px;
+			height: 26px;
+			margin-right: 0;
+			line-height: 25px;
+			color:#FFF;
+			text-align: center;
+			background-color: #1287bf;
+			border-radius: 3px 2px 2px 3px;
+			&:hover {
+				color: #1287bf;
+				background-color: #FFF;
+			}
+		}
+	}
+	#header {
+		background: #fff;
+	}
+	h1 {
+		@media screen and (max-width: 867px) {
+			width: 250px;
+			margin: 0 auto;
+
+		}
+		@media screen and (min-width: 868px) {
+			float:left;
+		}
+		
+		text-align: left;
+		.fa {
+			float:left;
+			margin-top: 5px;
+			font-size: 57px;
+			color: #dd2a24;
+		}
+		a {
+			margin-top: 5px;
+			color:#424242;
+			font-size: 37px;
+			line-height: 40px;
+			font-weight: 700;
+		}
+		span {
+			display: block;
+			font-size: 15px;
+			font-weight: 400;
+		}
+	}
+
+	.header-menu {
+		margin-top: 10px;
+		@media screen and (min-width: 868px) {
+			float:right;
+		}
+		
+
+		ul {
+			li {
+				position: relative;
+				display: inline-block;
+				padding: 10px 20px;
+
+				a {
+					color:#424242;
+					font-size: 15px;
+				}
+				&:hover {
+					a {
+						color:#de2b24;
+					}
+				}
+				&:before {
+					position: absolute;
+					left:-5px;
+					top:-20px;
+					content: '.';
+					font-size: 40px;
+					font-family: 'Open Sans';
+					color:#424242;
+				}
+				&:first-child {
+					&:before {
+						content:'';
+					}
+				}
+
+				&:last-child {
+					background-color: #de2b24;
+					border-radius: 4px;
+					margin-bottom: 20px;
+					a {
+						color:#FFF;
+					}
+					&:hover {
+						a {
+							color:#424242;
+						}
+					}
+					&:before {
+						content:'';
+					
+					}
+				}
+			}
+
+		}
+	}
+ 
+}
