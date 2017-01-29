@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="sass/components/full-menu.css">
+
 </head>
 <body>
 	<header>
@@ -16,25 +18,21 @@
             <h1>
                 <a class="logo" href="#"><img src="img/logo.png" alt=""></a>
             </h1>
-             <nav class="pushy pushy-right">
-                <ul>
-                    <li><a class="pushy-link" href="#hero">Home</a></li>
-                    <li><a class="pushy-link" href="#intro">Introduction</a></li>
-                    <li><a class="pushy-link" href="#download">Download</a></li>
-                    <li><a class="pushy-link" href="#about">About Singular</a></li>
-                    <li><a class="pushy-link" href="#services">Services</a></li>
-                    <li><a class="pushy-link" href="#works">Featured works</a></li>
-                    <li><a class="pushy-link" href="#team">About Us</a></li>
-                    <li><a class="pushy-link" href="#clients">Clients</a></li>
-                    <li><a class="pushy-link" href="#contact-us">Contact</a></li>
+             <nav class="overlay" id="myNav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul class="overlay-content"> 
+                    <li><a href="#hero" onclick="closeNav()">Home</a></li>
+                    <li><a href="#intro" onclick="closeNav()">Introduction</a></li>
+                    <li><a href="#download" onclick="closeNav()">Download</a></li>
+                    <li><a href="#about" onclick="closeNav()">About Singular</a></li>
+                    <li><a href="#services" onclick="closeNav()">Services</a></li>
+                    <li><a href="#works" onclick="closeNav()">Featured works</a></li>
+                    <li><a href="#team" onclick="closeNav()">About Us</a></li>
+                    <li><a href="#clients" onclick="closeNav()">Clients</a></li>
+                    <li><a href="#contact-us" onclick="closeNav()">Contact</a></li>
                 </ul>
             </nav>
-            <div class="site-overlay"></div>
-            <div class="container">
-                <div class="menu-btn-wrapper cf">
-                    <a class="menu-btn"><span class="fa fa-bars fa-3x"></span></a>
-                </div>
-            </div>
+            <span class="fa fa-bars fa-3x" onclick="openNav()"></span>
         </div>
 	</header>
     <section class="hero" id="hero">
@@ -258,7 +256,8 @@
                             <span>Freebies</span>
                         </a>
                     </div>
-                </li>  
+                </li>
+            </ul>  
         </div>
     </section>
 
@@ -289,7 +288,7 @@
                         </div>                      
                     </div>    
                 </li>
-                <li class="member col-xs-12 col-sm-6 col-md-3">
+                <li class="member col-xs-10 col-sm-6 col-md-3">
                   <div class="img-wrap">
                         <img src="img/team-item-3.jpg" alt="">
                         <div class="team-rollover">
@@ -299,10 +298,13 @@
                     </div>    
                 </li>
                 <li class="advertisement col-xs-12 col-sm-6 col-md-3">
-                    <div class="advertisement-wrap">
-                        <span>We are Hiring!</span>
-                        <a href="#">Apply</a>
-                    </div>
+                     <div class="img-wrap">
+                        <img src="img/team-item-4.png" alt="">
+                        <div class="team-rollover">
+                            <span>We are Hiring!</span>
+                            <a href="#">Apply</a>
+                        </div>                      
+                    </div>    
                 </li>
             </ul>
         </div>
@@ -350,9 +352,6 @@
     <script src="libs/isotope/dist/isotope.pkgd.min.js"></script>
     <script src="js/my-isotope.js"></script>
     <script src="libs/isotope/js/layout-modes/fit-rows.js"></script>
-
-
-
-
+    <script src="js/menu.js"></script>
 </body>
 </html>
