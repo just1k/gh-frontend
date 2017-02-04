@@ -1,13 +1,16 @@
-@import "base/general";
-@import "base/fonts";
+@import "components/_variables";
 
-@import "partials/header";
-@import "partials/footer";
-@import "partials/hero";
-@import "partials/about";
-@import "partials/projects";
-@import "partials/services";
-@import "partials/blog";
-@import "partials/pricing";
+@import "base/_bootstrap-over";
+@import "base/_general";
+@import "base/_fonts";
+
+@import "partials/_header";
+@import "partials/_footer";
+@import "partials/_hero";
+@import "partials/_about";
+@import "partials/_projects";
+@import "partials/_services";
+@import "partials/_blog";
+@import "partials/_pricing";
 
 
