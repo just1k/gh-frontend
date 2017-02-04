@@ -1,0 +1,62 @@
+.projects {
+	@media screen and (min-width: 768px) {
+		text-align: left;
+	}
+	
+	.section-title {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.subheading {
+		padding: 30px 0 25px;
+		@media screen and (min-width: 768px) {
+			padding-top: 90px
+		}
+	}
+	p {
+		font-size: 16px;
+		padding-bottom: 35px;
+	}
+	.read-more {
+		border: 1px solid #009aff;
+		color: #009aff;;
+		padding: 5px 20px;
+		display: inline-block;
+	 	 vertical-align: middle;
+		  -webkit-transform: perspective(1px) translateZ(0);
+		  transform: perspective(1px) translateZ(0);
+		  box-shadow: 0 0 1px transparent;
+		  position: relative;
+		  background: transparent;
+		  -webkit-transition-property: color;
+		  transition-property: color;
+		  -webkit-transition-duration: 0.3s;
+		  transition-duration: 0.3s;
+
+		&:before {
+		  content: "";
+		  position: absolute;
+		  z-index: -1;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  background: #009aff;
+		  -webkit-transform: scale(0);
+		  transform: scale(0);
+		  -webkit-transition-property: transform;
+		  transition-property: transform;
+		  -webkit-transition-duration: 0.3s;
+		  transition-duration: 0.3s;
+		  -webkit-transition-timing-function: ease-out;
+		  transition-timing-function: ease-out;
+		}
+		&:hover, &:focus, &:active {
+		  color: black;
+		}
+		&:hover:before, &:focus:before, &:active:before {
+		  -webkit-transform: scale(1);
+		  transform: scale(1);
+	}
+	}
+}

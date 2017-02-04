@@ -3,7 +3,7 @@ body {
 	font-size: 14px;
 	font-family: $primary-font;
 	line-height: 28px;
-	color: #878787;
+	color: #6e6e6e;
 	text-align: center;
 }
 p {
@@ -48,6 +48,7 @@ h1,h2,h3,h4,h5,h6 {
 .section-title {
 	color: black;
 	font: 600 30px $primary-font;
+
 	&:after {
 		content: '';
 		display: block;
