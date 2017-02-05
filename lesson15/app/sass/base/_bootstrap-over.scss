@@ -6779,10 +6779,10 @@ header {
   }
 
  .navbar-header {
-   background-color: rgba(0,0,0, .5);
+   background-color: rgba(0, 173, 226, 0.4);
  }
   .navbar-collapse {
-    background-color: rgba(0,0,0, .5);
+    background-color: rgba(0, 173, 226, 0.4);
   }
 
   .navbar-default {
@@ -6849,6 +6849,7 @@ header {
           text-align: center;
           a {
             font-size: 18px;
+	    padding: 25px 0;
           }
         }
       }

@@ -11,7 +11,7 @@
 </head>
 <body>
 	<header>
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<nav class="navbar  navbar-header navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
@@ -22,14 +22,14 @@
                     </button>
                 </div>
 
-                <div class="collapse navbar-collapse" id="collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a  href="#">Home</a></li>
+                <div class="collapse navbar-collapse" id="collapse" >
+                    <ul class="nav navbar-nav" id="menu">
+                        <li><a href="#hero">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#pages">Pages</a></li>
-                        <li><a href="#templates">Templates</a></li>
-                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#pricing">Templates</a></li>
                         <li><a href="#services">Services</a></li>
+                        <li><a href="#blog">Blog</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -38,7 +38,7 @@
     </header>
 
     
-    <section class="hero">
+    <section class="hero" id="hero">
 	    <div class="container">
 	    	<h1 class="logo">
 				<a href="#"><img src="img/logo.png" alt="Quora"></a>
@@ -157,68 +157,94 @@
 	<section class="section blog" id="blog">
 		<div class="container">
 			<h2 class="section-title">Quora Blog</h2>
-			<ul class="row blog-list">
-				<li class="col-xs-6 col-sm-4 col-md-3 blog-item">
+			<ul class="row blog-list masonry" data-columns>
+				<li class="blog-item">
+				<div class="blog-wrap">
 					<img src="img/blog-1.png" alt="">
 					<h3>Fusce est felis, iaculis</h3>
 					<p>
 						Cum sociis natoque penatibus et magnis dis parturient montes, 
 						nasce ridiculus mus. 
 					</p>
-					<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
-					<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					<div class="blog-links">
+						<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
+						<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					</div>
+				</div>
+					
 				</li>
-				<li class="col-xs-6 col-sm-4 col-md-3 blog-item">
+				<li class="blog-item">
+					<div class="blog-wrap">
 					<img src="img/blog-2.png" alt="">
 					<h3>Fusce est felis, iaculis</h3>
 					<p>
 						Cum sociis natoque penatibus et magnis dis parturient montes, 
 						nasce ridiculus mus. 
 					</p>
-					<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
-					<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					<div class="blog-links">
+						<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
+						<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					</div>
+				</div>
 				</li>
-				<li class="col-xs-6 col-sm-4 col-md-3 blog-item">
+				<li class="blog-item">
+					<div class="blog-wrap">
 					<img src="img/blog-3.png" alt="">
 					<h3>Fusce est felis, iaculis</h3>
 					<p>
 						Cum sociis natoque penatibus et magnis dis parturient montes, 
 						nasce ridiculus mus. 
 					</p>
-					<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
-					<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					<div class="blog-links">
+						<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
+						<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					</div>
+				</div>
 				</li>
-				<li class="col-xs-6 col-sm-4 col-md-3 blog-item">
+				<li class="blog-item">
+					<div class="blog-wrap">
 					<img src="img/blog-4.png" alt="">
 					<h3>Fusce est felis, iaculis</h3>
 					<p>
 						Cum sociis natoque penatibus et magnis dis parturient montes, 
 						nasce ridiculus mus. 
 					</p>
-					<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
-					<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					<div class="blog-links">
+						<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
+						<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					</div>
+				</div>
 				</li>
-				<li class="col-xs-6 col-sm-4 col-md-3 blog-item">
+				<li class="blog-item">
+					<div class="blog-wrap">
 					<img src="img/blog-5.png" alt="">
 					<h3>Fusce est felis, iaculis</h3>
 					<p>
 						Cum sociis natoque penatibus et magnis dis parturient montes, 
 						nasce ridiculus mus. 
 					</p>
-					<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
-					<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					<div class="blog-links">
+						<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
+						<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					</div>
+				</div>
 				</li>
-				<li class="col-xs-6 col-sm-4 col-md-3 blog-item">
+				<li class="blog-item">
+					<div class="blog-wrap">
 					<img src="img/blog-6.png" alt="">
 					<h3>Fusce est felis, iaculis</h3>
 					<p>
 						Cum sociis natoque penatibus et magnis dis parturient montes, 
 						nasce ridiculus mus. 
 					</p>
-					<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
-					<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					<div class="blog-links">
+						<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
+						<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					</div>
+				</div>
 				</li>
-				<li class="col-xs-6 col-sm-4 col-md-3 blog-item">
+				<li class="blog-item">
+					<div class="blog-wrap">
 					<img src="img/blog-7.png" alt="">
 					<h3>Fusce est felis, iaculis</h3>
 					<p>
@@ -226,23 +252,31 @@
 						mus. Suspendisse ullam, nascetur ridiculus mu. Suspendis ullamcorper. um so 
 						natoque penat et magnis dis parturient montes,
 					</p>
-					<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
-					<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					<div class="blog-links">
+						<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
+						<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					</div>
+				</div>
 				</li>
-				<li class="col-xs-6 col-sm-4 col-md-3 blog-item">
+				<li class="blog-item">
+					<div class="blog-wrap">
 					<img src="img/blog-8.png" alt="">
 					<h3>Fusce est felis, iaculis</h3>
 					<p>
 						Cum sociis natoque penatibus et magnis dis parturient montes, 
 						nasce ridiculus mus. 
 					</p>
-					<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
-					<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					<div class="blog-links">
+						<a href="#" class="like"><i class="icon icon-like"></i>1232</a>
+						<a href="#" class="comment"><i class="icon icon-comment"></i>Comments</a>
+					</div>
+					
+				</div>
 				</li>
 			</ul>
 		</div>
 	</section>
-	<section class="section pricing">
+	<section class="section pricing" id="pricing">
 		<div class="container">
 			<h2 class="section-title">Quora Pricing</h2>
 			<ul class="price-list">
@@ -289,7 +323,7 @@
 			</ul>
 		</div>
 	</section>
-	<footer>
+	<footer id="contact">
 		<div class="container">
 			<div class="row">
 				<div class="contact-info col-xs-12 col-sm-6 col-md-4">
@@ -363,13 +397,19 @@
 			</div>
 		</div>
 		<div class="copyright">
+
 			<span>© 2015 quoradigital.com</span>
+			<div id="btn-up">
+				<a href="#hero" ><span class="fa fa-long-arrow-up"></span></a>
+			</div>
 		</div>
 	</footer>
 
 
 	<script src="js/libs.min.js"></script>
-
+	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/common.js"></script>
+	<script src="js/salvattore.min.js"></script>
+
 </body>
 </html>
