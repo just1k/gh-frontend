@@ -1,0 +1,82 @@
+.pricing {
+	position: relative;
+	padding-bottom: 150px;
+	&:after {
+		border-top: 50px solid transparent;
+		@media screen and (min-width:768px) {
+			border-top-width: 120px;
+		}
+	  	border-right: 50vw solid #204359;
+	   	border-left: 50vw solid #204359; 
+		position: absolute;
+	   	bottom: 0;
+	   	content: "";
+	   	display: block;
+	}
+	.price-list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		padding-top: 90px;
+		.price-item {
+			width: 300px;
+			background:  #fc0;
+			color: black;
+			.price-header {
+				padding: 45px 0 35px;
+				border-bottom: 1px solid #abdeff;
+				h3 {
+					color: white;
+					text-transform: uppercase;
+					font-weight: bold;
+					font-size: 26px;
+				}
+				.price {
+					padding-top: 10px;
+					color: black;
+					font-size: 48px;
+					font-weight: 800;
+					line-height: 72px;
+
+				}
+				sub,sup {
+					font-size: 26px;
+					font-weight: 400;
+				}
+			}
+			ul {
+				padding-top: 20px;
+				li {
+					padding-bottom: 50px;
+					font-size: 18px;
+				}
+			}
+			a {
+				padding: 10px 55px;
+				color: white;
+				background: black;
+				border: 1px solid black;
+				font-size: 16px;
+				text-transform: uppercase;
+				margin-bottom: 40px;
+				transition: 0.3s all ease-out;
+				&:hover {
+					background: white;
+					color: black;
+				}
+			}
+		}
+		.price-gold {
+			background: #009bff;
+			.icon {
+				display: block;
+				margin-bottom: 30px;
+				font-size: 30px;
+				font-weight: bold;
+				color: white;
+			}
+
+		}
+	}
+}
