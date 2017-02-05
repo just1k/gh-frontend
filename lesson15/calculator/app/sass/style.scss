@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400i|Open+Sans:400,600,700|Raleway:600,700,800');
+table{
+  margin: 50px auto;
+  border-spacing: 0;
+  border-collapse: collapse;
+  .display-screen{
+    height: 170px;
+    vertical-align: bottom;
+    background: #672807;  
+  }
+  .screen{
+    border: none;
+    outline: none;
+    width: 100%;
+    font: 400 85px "Open Sans", sans-serif;
+    text-align: right;
+    background-color: transparent;
+    color: #FFFFFF;
+  }
+  td{
+    border: 3px solid #939393;
+    width: 120px;
+    height: 95px;
+    outline: none;
+    text-align: center;
+    background-color: #DFDFDF;
+    font: 400 40px "Open Sans", sans-serif;
+    &:active{
+      background-color: #8b8b8b;
+    }
+  }
+  .orange{
+    background-color: #FF6F22;
+    color: #fff;
+    &:active{
+      background-color: #F0AF1D;
+    }
+  }
+}

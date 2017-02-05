@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/libs.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <form class="calculator" name="calculator" action="">
+            <table>
+                <tr>
+                    <td class="display-screen" colspan=4 align=middle>
+                        <input class="screen" name="display" type="text" value="0" disabled >
+                    </td>
+                </tr>
+                <tr>
+                    <td onclick="clearing()" colspan="3">AC</td>
+                    <td class="orange" onclick="operation('/')">/</td>
+                </tr>
+                <tr>
+                    <td onclick="number(7)"> 7 </td>
+                    <td onclick="number(8)"> 8 </td>
+                    <td onclick="number(9)"> 9 </td>
+                    <td class="orange" onclick="operation('*')"> * </td>
+                </tr>
+                <tr>
+                    <td onclick="number(4)"> 4 </td>
+                    <td onclick="number(5)"> 5 </td>
+                    <td onclick="number(6)"> 6 </td>
+                    <td class="orange" onclick="operation('-')"> - </td>
+                </tr>
+                <tr>
+                    <td onclick="number(1)"> 1 </td>
+                    <td onclick="number(2)"> 2 </td>
+                    <td onclick="number(3)"> 3 </td>
+                    <td class="orange" onclick="operation('+')"> + </td>
+                </tr>
+                <tr>
+                    <td colspan="2" onclick="number(0)"> 0 </td>
+                    <td onclick="number('.')"> . </td>
+                    <td class="orange" onclick="compute()"> = </td>
+
+                </tr>
+            </table>
+        </form>
+
+        <script src="js/libs.min.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
